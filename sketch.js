@@ -1,10 +1,10 @@
-let blob;
+var blob;
 
-let blobs = [];
+var blobs = [];
 
 function setup(){
   createCanvas(600,400)
-  blob = new Blob(width/2, height/64);
+  blob = new Blob(64);
   for (var i = 0; i < 10; i++){
     blobs[i] = new Blob(16);
   }
